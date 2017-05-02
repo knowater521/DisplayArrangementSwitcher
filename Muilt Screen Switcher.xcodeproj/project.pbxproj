@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0906606F1EAF42B8004630E9 /* UserNotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CBA6C11EAF3F1A008466A3 /* UserNotificationHelper.swift */; };
+		09AFD3051EAE1602003360CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFD3041EAE1602003360CE /* AppDelegate.swift */; };
+		09AFD3091EAE1602003360CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AFD3081EAE1602003360CE /* Assets.xcassets */; };
+		09AFD30C1EAE1602003360CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09AFD30A1EAE1602003360CE /* Main.storyboard */; };
+		09AFD3161EAE177B003360CE /* ScreenHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFD3151EAE177A003360CE /* ScreenHelper.swift */; };
+		09AFD3191EAE23DB003360CE /* DisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFD3181EAE23DB003360CE /* DisplayModel.swift */; };
+		09AFD31C1EAE260D003360CE /* Profiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFD31B1EAE260D003360CE /* Profiles.swift */; };
+		09CBA6BE1EAE4CB5008466A3 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CBA6BD1EAE4CB5008466A3 /* SettingViewController.swift */; };
+		09CBA6C01EAE4DAD008466A3 /* ProfileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CBA6BF1EAE4DAD008466A3 /* ProfileHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		095079A81EB225E300F3EA82 /* Muilt Screen Switcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Muilt Screen Switcher.entitlements"; sourceTree = "<group>"; };
+		09AFD3011EAE1602003360CE /* Muilt Screen Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muilt Screen Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09AFD3041EAE1602003360CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09AFD3081EAE1602003360CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09AFD30B1EAE1602003360CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09AFD30D1EAE1602003360CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09AFD3151EAE177A003360CE /* ScreenHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenHelper.swift; path = Tools/ScreenHelper.swift; sourceTree = "<group>"; };
+		09AFD3181EAE23DB003360CE /* DisplayModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayModel.swift; path = Model/DisplayModel.swift; sourceTree = "<group>"; };
+		09AFD31B1EAE260D003360CE /* Profiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Profiles.swift; path = Model/Profiles.swift; sourceTree = "<group>"; };
+		09CBA6BD1EAE4CB5008466A3 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = Views/SettingViewController.swift; sourceTree = "<group>"; };
+		09CBA6BF1EAE4DAD008466A3 /* ProfileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileHelper.swift; path = Tools/ProfileHelper.swift; sourceTree = "<group>"; };
+		09CBA6C11EAF3F1A008466A3 /* UserNotificationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserNotificationHelper.swift; path = Tools/UserNotificationHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09AFD2FE1EAE1602003360CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09AFD2F81EAE1602003360CE = {
+			isa = PBXGroup;
+			children = (
+				09AFD3031EAE1602003360CE /* Muilt Screen Switcher */,
+				09AFD3021EAE1602003360CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09AFD3021EAE1602003360CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09AFD3011EAE1602003360CE /* Muilt Screen Switcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09AFD3031EAE1602003360CE /* Muilt Screen Switcher */ = {
+			isa = PBXGroup;
+			children = (
+				095079A81EB225E300F3EA82 /* Muilt Screen Switcher.entitlements */,
+				09CBA6BD1EAE4CB5008466A3 /* SettingViewController.swift */,
+				09AFD3171EAE1782003360CE /* Tools */,
+				09AFD31A1EAE2404003360CE /* Model */,
+				09AFD3041EAE1602003360CE /* AppDelegate.swift */,
+				09AFD3081EAE1602003360CE /* Assets.xcassets */,
+				09AFD30A1EAE1602003360CE /* Main.storyboard */,
+				09AFD30D1EAE1602003360CE /* Info.plist */,
+			);
+			path = "Muilt Screen Switcher";
+			sourceTree = "<group>";
+		};
+		09AFD3171EAE1782003360CE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				09AFD3151EAE177A003360CE /* ScreenHelper.swift */,
+				09CBA6BF1EAE4DAD008466A3 /* ProfileHelper.swift */,
+				09CBA6C11EAF3F1A008466A3 /* UserNotificationHelper.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		09AFD31A1EAE2404003360CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09AFD3181EAE23DB003360CE /* DisplayModel.swift */,
+				09AFD31B1EAE260D003360CE /* Profiles.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09AFD3001EAE1602003360CE /* Muilt Screen Switcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09AFD3101EAE1602003360CE /* Build configuration list for PBXNativeTarget "Muilt Screen Switcher" */;
+			buildPhases = (
+				09AFD2FD1EAE1602003360CE /* Sources */,
+				09AFD2FE1EAE1602003360CE /* Frameworks */,
+				09AFD2FF1EAE1602003360CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Muilt Screen Switcher";
+			productName = "Muilt Screen Switcher";
+			productReference = 09AFD3011EAE1602003360CE /* Muilt Screen Switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09AFD2F91EAE1602003360CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = West2Studio;
+				TargetAttributes = {
+					09AFD3001EAE1602003360CE = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = VS34895XT6;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 09AFD2FC1EAE1602003360CE /* Build configuration list for PBXProject "Muilt Screen Switcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09AFD2F81EAE1602003360CE;
+			productRefGroup = 09AFD3021EAE1602003360CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09AFD3001EAE1602003360CE /* Muilt Screen Switcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09AFD2FF1EAE1602003360CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09AFD3091EAE1602003360CE /* Assets.xcassets in Resources */,
+				09AFD30C1EAE1602003360CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09AFD2FD1EAE1602003360CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CBA6C01EAE4DAD008466A3 /* ProfileHelper.swift in Sources */,
+				09AFD3191EAE23DB003360CE /* DisplayModel.swift in Sources */,
+				09AFD3051EAE1602003360CE /* AppDelegate.swift in Sources */,
+				09AFD3161EAE177B003360CE /* ScreenHelper.swift in Sources */,
+				0906606F1EAF42B8004630E9 /* UserNotificationHelper.swift in Sources */,
+				09AFD31C1EAE260D003360CE /* Profiles.swift in Sources */,
+				09CBA6BE1EAE4CB5008466A3 /* SettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09AFD30A1EAE1602003360CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09AFD30B1EAE1602003360CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09AFD30E1EAE1602003360CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09AFD30F1EAE1602003360CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		09AFD3111EAE1602003360CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Muilt Screen Switcher/Muilt Screen Switcher.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Muilt Screen Switcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.w2fzu.DisplaySwitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		09AFD3121EAE1602003360CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Muilt Screen Switcher/Muilt Screen Switcher.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Muilt Screen Switcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.w2fzu.DisplaySwitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09AFD2FC1EAE1602003360CE /* Build configuration list for PBXProject "Muilt Screen Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09AFD30E1EAE1602003360CE /* Debug */,
+				09AFD30F1EAE1602003360CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09AFD3101EAE1602003360CE /* Build configuration list for PBXNativeTarget "Muilt Screen Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09AFD3111EAE1602003360CE /* Debug */,
+				09AFD3121EAE1602003360CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09AFD2F91EAE1602003360CE /* Project object */;
+}
