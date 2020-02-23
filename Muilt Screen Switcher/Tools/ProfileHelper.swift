@@ -8,39 +8,35 @@
 
 import Foundation
 
-class ProfileHelper{
-    private init(){}
+class ProfileHelper {
+    private init() {}
     static let shared = ProfileHelper()
-    
+
     let PROFILE_KEY = "Profiles"
-    
-    
+
     let data = UserDefaults.standard
-    
-    var profiles:[Profile]{
-        get{
+
+    var profiles: [Profile] {
+        get {
             if let x = data.object(forKey: PROFILE_KEY) as? NSArray {
-                return x.map{
-                    NSKeyedUnarchiver.unarchiveObject(with: $0 as! Data ) as! Profile
+                return x.map {
+                    NSKeyedUnarchiver.unarchiveObject(with: $0 as! Data) as! Profile
                 }
-            }else{
+            } else {
                 return []
             }
         }
-        set{
-            let array = newValue.map{
+        set {
+            let array = newValue.map {
                 NSKeyedArchiver.archivedData(withRootObject: $0)
             }
-            
+
             data.set(array, forKey: PROFILE_KEY)
         }
     }
-    
-    func addProfile(_ profile:Profile){
-        self.profiles.append(profile)
+
+    func addProfile(_ profile: Profile) {
+        profiles.append(profile)
         print(profiles)
     }
-    
-    
-    
 }

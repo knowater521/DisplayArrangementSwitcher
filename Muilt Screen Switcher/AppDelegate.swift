@@ -10,53 +10,49 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-    
-    var statusItem: NSStatusItem! = NSStatusBar.system().statusItem(withLength: 25)
+    var statusItem: NSStatusItem! = NSStatusBar.system.statusItem(withLength: 25)
 
-    @IBOutlet weak var Menu: NSMenu!
-    
-    @IBOutlet weak var settingMenuItem: NSMenuItem!
-    @IBOutlet weak var firstSeparatorMenuItem: NSMenuItem!
-    @IBOutlet weak var secondSparatorMenuItem: NSMenuItem!
-    @IBOutlet weak var quitMenuItem: NSMenuItem!
+    @IBOutlet var Menu: NSMenu!
+
+    @IBOutlet var settingMenuItem: NSMenuItem!
+    @IBOutlet var firstSeparatorMenuItem: NSMenuItem!
+    @IBOutlet var secondSparatorMenuItem: NSMenuItem!
+    @IBOutlet var quitMenuItem: NSMenuItem!
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         setupMenu()
         updateMenu()
     }
 
-    func setupMenu(){
+    func setupMenu() {
         let img = #imageLiteral(resourceName: "logo")
         img.resizingMode = .stretch
         statusItem.image = img
         statusItem.menu = Menu
     }
-    
-    func updateMenu(){
+
+    func updateMenu() {
         let begin_place = Menu.index(of: firstSeparatorMenuItem)
         let end_place = Menu.index(of: secondSparatorMenuItem)
-        
-        for _ in begin_place+1 ..< end_place{
-            Menu.removeItem(at: begin_place+1)
+
+        for _ in begin_place + 1..<end_place {
+            Menu.removeItem(at: begin_place + 1)
         }
-        
+
         var tag = 0
-        for each in ProfileHelper.shared.profiles{
+        for each in ProfileHelper.shared.profiles {
             let item = NSMenuItem()
             item.tag = tag
             item.title = each.note
             item.action = #selector(selectProfile)
             Menu.insertItem(item, at: begin_place + 1 + tag)
             tag += 1
-
         }
     }
 
-    func selectProfile(sender: NSMenuItem){
+    @objc func selectProfile(sender: NSMenuItem) {
         let index = sender.tag
         let profile = ProfileHelper.shared.profiles[index]
         ScreenHelper.shared.setScreens(profile)
     }
-
 }
-
